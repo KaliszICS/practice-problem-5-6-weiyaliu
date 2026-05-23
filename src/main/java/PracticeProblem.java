@@ -11,7 +11,7 @@ public class PracticeProblem {
 	    
 	    for (int i = 0; i < names.length; i++) {
 	        
-	         (name.equal(names[i])) {
+	    	if (name.equals(names[i])) {
 	            age = ages[i];
 	        }
 	    }
@@ -22,9 +22,9 @@ public class PracticeProblem {
 	//2.
 	public static int[] createLengthArrary (String[] arr) {
 	    
-	    int[] lengths = new int(arr.length);
+	    int[] lengths = new int[arr.length];
 	    
-	    for (int i= o; i < arr.length; i++) {
+	    for (int i= 0; i < arr.length; i++) {
 	        lengths[i] = arr[i].length();
 	    }
 	    
@@ -39,11 +39,11 @@ public class PracticeProblem {
 	    
 	    for (int i= 0; i < names.length; i++) {
 	        
-	        if (names1.equals(names[i])) {
+	        if (name1.equals(names[i])) {
 	            index1 = i;
 	        }
 	        
-	        if (names2.equals(names[i])) {
+	        if (name2.equals(names[i])) {
 	            index2 = i;
 	        }
 	        
