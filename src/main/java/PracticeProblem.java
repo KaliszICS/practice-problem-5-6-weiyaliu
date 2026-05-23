@@ -11,7 +11,7 @@ public class PracticeProblem {
 	    
 	    for (int i = 0; i < names.length; i++) {
 	        
-	    	if (name.equals(names[i])) {
+	    	if (name.equals(names[i]) && age == -1) {
 	            age = ages[i];
 	        }
 	    }
@@ -37,7 +37,7 @@ public class PracticeProblem {
 	    int index1 = -1;
 	    int index2 = -1;
 	    
-	    for (int i= 0; i < names.length; i++) {
+	    for (int i  = 0; i < names.length; i++) {
 	        
 	        if (name1.equals(names[i])) {
 	            index1 = i;
@@ -47,17 +47,15 @@ public class PracticeProblem {
 	            index2 = i;
 	        }
 	        
-	   String tempName;
-	   tempName = names[index1];
+	    }
+
+		 String tempName = names[index1];
 	   names[index1] = names[index2];
 	   names[index2] = tempName;
 	   
-	   int tempAge;
-	   tempAge = ages[index1];
+	   int tempAge = ages[index1];
 	   ages[index1] = ages[index2];
 	   ages[index2] = tempAge;
-	        
-	    }
 	}
 
 }
