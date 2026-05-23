@@ -20,7 +20,7 @@ public class PracticeProblem {
 	}
 	
 	//2.
-	public static int[] createLengthArrary (String[] arr) {
+	public static int[] createLengthArray (String[] arr) {
 	    
 	    int[] lengths = new int[arr.length];
 	    
@@ -48,13 +48,11 @@ public class PracticeProblem {
 	        }
 	        
 	   String tempName;
-	   
 	   tempName = names[index1];
 	   names[index1] = names[index2];
 	   names[index2] = tempName;
 	   
 	   int tempAge;
-	   
 	   tempAge = ages[index1];
 	   ages[index1] = ages[index2];
 	   ages[index2] = tempAge;
