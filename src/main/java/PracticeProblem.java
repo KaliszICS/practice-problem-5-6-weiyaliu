@@ -39,11 +39,11 @@ public class PracticeProblem {
 	    
 	    for (int i  = 0; i < names.length; i++) {
 	        
-	        if (name1.equals(names[i])) {
+	        if (name1.equals(names[i])&& index1 == -1) {
 	            index1 = i;
 	        }
 	        
-	        if (name2.equals(names[i])) {
+	        if (name2.equals(names[i])&& index2 == -1) {
 	            index2 = i;
 	        }
 	        
